@@ -21,7 +21,7 @@ author:
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
-url: "http://buqi.xyz" #
+url: "http://mysteris.github.io" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
@@ -89,3 +89,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-postfiles
   - jekyll-sass-converter
+
+gitalk:
+    repo: mysteris.github.io //  github 上博客仓库的名字
+    client_id: de8bb16edef69447e2f2  // Client ID
+    client_secret: 1dfd356776d64b3de9503d2972e86733b6030170 // Client Secret
